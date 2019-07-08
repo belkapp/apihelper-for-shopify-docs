@@ -19,7 +19,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-[example html >](/Klaviyo/example.html)
+[example html >](example.html)
 
 * ### Klaviyo
   * [subscribe](/Klaviyo/subscribe.md)
@@ -28,6 +28,8 @@ wb_apihelper(options, function(err, res){
   * [track](/Klaviyo/track.md)
   * [identify](/Klaviyo/identify.md)
 * ### Mailchimp
+  * [subscribe](/Mailchimp/subscribe.md)
+  * [unsubscribe](/Mailchimp/unsubscribe.md)
 * ### Omnisend
-* ### Shopify - Subscribe
-* ### Shopify - Discount
+* ### Shopify \- Subscribe
+* ### Shopify \- Discount

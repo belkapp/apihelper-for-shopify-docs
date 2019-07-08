@@ -1,9 +1,10 @@
 ```
 var options = {
-  vendor: 'klaviyo-subscribe',
-  action: 'identify',
+  vendor: 'mailchimp-subscribe',
+  action: 'subscribe',
   email: 'foo@google.co',
-  'Some Custom Property': 'The person with the cool shoes'
+  list_id: 'jWks87j',
+  signup_location: 'footer'
 }
 wb_apihelper(options, function(err, res){
   if ( err ) return alert(res.message)
@@ -14,9 +15,11 @@ wb_apihelper(options, function(err, res){
 * `vendor`
 * `action`
 * `email`
+* `list_id`
+* `signup_location`
 
 ## Standard `options`
-API Helper supports the following standard options. These options will be mapped to the appropriate location in Klaviyo.
+API Helper supports the following standard options. These options will be mapped to the appropriate location in Mailchimp.
 ```
 var options = {
   (...)
@@ -34,7 +37,7 @@ var options = {
 }
 ```
 ## Custom Properties
-You can pass any custom properties by key/value like below. These are mapped to `Custom Properties` in Klaviyo.
+You can pass any custom properties by key/value like below. These are popuplated as `tags` in Mailchimp.
 ```
 var options = {
   (...)

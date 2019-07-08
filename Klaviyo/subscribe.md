@@ -37,7 +37,7 @@ var options = {
 }
 ```
 ## Custom Properties
-You can pass any custom properties by key/value like below.
+You can pass any custom properties by key/value like below. These are mapped to `Custom Properties` in Klaviyo.
 ```
 var options = {
   (...)
