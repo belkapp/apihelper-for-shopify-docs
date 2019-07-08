@@ -11,14 +11,15 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-## Required Fields
+## Required `options`
 * `vendor`
 * `action`
 * `email`
 * `list_id`
 * `signup_location`
 
-## Standard Fields
+## Standard `options`
+API Helper supports the following standard options. These options will be mapped to the appropriate location in Klaviyo.
 ```
 var options = {
   (...)
@@ -33,5 +34,14 @@ var options = {
   zip: '90254',
   country: 'United States',
   timezone_iana: 'America/Los_Angeles'
+}
+```
+## Custom Properties
+You can pass any custom properties by key/value like below.
+```
+var options = {
+  (...)
+  'Custom Property 1': 'foobar',
+  'Custom Property 2': 'bananas'
 }
 ```
