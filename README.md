@@ -1,8 +1,11 @@
 # API Helper for Shopify docs
 
-This app supports the following modules:
-• Klaviyo
-• Mailchimp
-• Omnisend
-• Shopify - Subscribe
-• Shopify - Discount
+The API Helper app for Shopify is available here.
+
+The app simplifies AJAX email sign ups and discount code creation for Shopify.
+
+* Klaviyo
+* Mailchimp
+* Omnisend
+* Shopify - Subscribe
+* Shopify - Discount
