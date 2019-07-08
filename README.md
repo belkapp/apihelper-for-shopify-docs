@@ -34,11 +34,9 @@ wb_apihelper(options, function(err, res){
 * ### Omnisend
   * [subscribe](/Omnisend/subscribe.md)
   * [unsubscribe](/Omnisend/unsubscribe.md)
-* ### Shopify
-  * #### Subscribe
-    * [subscribe](/Shopify/Subscribe/subscribe.md)
-    * [unsubscribe](/Shopify/Subscribe/unsubscribe.md)
-* ### Shopify
-  * #### Discount
-    * [discount](/Shopify/Discount/subscribe.md)
+* ### Shopify \- Subscribe
+  * [subscribe](/Shopify/Subscribe/subscribe.md)
+  * [unsubscribe](/Shopify/Subscribe/unsubscribe.md)
+* ### Shopify \- Discount
+  * [discount](/Shopify/Discount/subscribe.md)
 * ### [utm params](/utms.md)
