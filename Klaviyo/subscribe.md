@@ -3,8 +3,8 @@ var options = {
   vendor: 'klaviyo-subscribe',
   action: 'subscribe',
   email: 'foo@google.co',
-  signup_location: 'footer',
-  list_id: 'jWks87j'
+  list_id: 'jWks87j',
+  signup_location: 'footer'
 }
 wb_apihelper(options, function(err, res){
   if ( err ) return alert(res.message)
