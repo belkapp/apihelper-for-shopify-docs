@@ -2,7 +2,22 @@
 
 The API Helper app for Shopify is available here.
 
-The app simplifies AJAX email sign ups and discount code creation for Shopify.
+The app simplifies AJAX email sign ups and discount code creation for Shopify. The app provides a secure frontend API that provides access to important functions from Klaviyo, Mailchimp, Omnisend and Shopify that are not accessible due to CORS policies inside of Shopify themes. API Helper provides a simple callback and standard response structure that makes life so much easier. API Helper also allows for plug-and-play or 'hot swap' customer sign-ups between Klaviyo, Mailchimp and Shopify.
+
+```
+var options = {
+  vendor: 'klaviyo-subscribe',
+  action: 'subscribe',
+  email: 'foo@google.co',
+  list_id: 'jWks87j',
+  signup_location: 'footer'
+}
+wb_apihelper(options, function(err, res){
+  if ( err ) return alert(res.message)
+  console.log(res)
+})
+```
+[example html >](/Klaviyo/example.html)
 
 * Klaviyo
   * [subscribe](/Klaviyo/subscribe.md)
@@ -10,7 +25,6 @@ The app simplifies AJAX email sign ups and discount code creation for Shopify.
   * [backinstock](/Klaviyo/backinstock.md)
   * [track](/Klaviyo/track.md)
   * [identify](/Klaviyo/identify.md)
-  * [__ example html __](/Klaviyo/example.html)
 * Mailchimp
 * Omnisend
 * Shopify - Subscribe
