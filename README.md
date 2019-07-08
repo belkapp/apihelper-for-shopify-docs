@@ -38,6 +38,6 @@ wb_apihelper(options, function(err, res){
 * [subscribe](/Shopify/Subscribe/subscribe.md)
 * [unsubscribe](/Shopify/Subscribe/unsubscribe.md)
 ### Shopify \- Discount
-* [discount](/Shopify/Discount/subscribe.md)
+* [discount](/Shopify/Discount/discount.md)
 ### Google UTM Params
 * [BONUS: utm params](/utms.md)
