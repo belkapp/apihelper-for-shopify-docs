@@ -1,0 +1,26 @@
+<form class="the_form" data-list_id="AsSWZs">
+  <label>Newsletter Signup</label>
+  <input type="text" name="email" value="" placeholder="Your email">
+  <button>Sign Up</button>
+</form>
+<script>
+  $(function(){
+    $('.the_form').submit(function(e){
+      e.preventDefault()
+      var options = {
+        vendor: 'klaviyo-subscribe',
+        action: 'subscribe',
+        email: $(this).find('input[name="email"]'),
+        list_id: $(this).attr('data-list_id'),
+        signup_location: 'newsletter overlay',
+        phone: '2135551212',
+        'Custom Property': 'foobar'
+      }
+      wb_apihelper(options, function(err, res){
+        if ( err ) return alert(res.message)
+        console.log(res)
+        $(this).hide()
+      })
+    })
+  })
+</script>
