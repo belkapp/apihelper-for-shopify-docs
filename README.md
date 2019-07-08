@@ -19,6 +19,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
+![alt text](Klaviyo/shopify-api-helpers-klaviyo-subscribe.gif)
 [example html >](example.html)
 
 * ### Klaviyo
