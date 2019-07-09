@@ -25,6 +25,8 @@ wb_apihelper(options, function(err, res){
 ![alt text](images/api-helper-for-shopify-admin.gif)
 [example.html >](example.html)
 
+## Modules
+Modules starting at $2 / month. Each module includes all action options. For example, the Klaviyo module costs $3 / month and gives you access to the `subscribe, unsubscribe, backinstock, track, identify` actions.
 ### Klaviyo - $3 / month
 * [subscribe](/Klaviyo/subscribe.md)
 * [unsubscribe](/Klaviyo/unsubscribe.md)
