@@ -11,7 +11,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-[Example html](../example.html)
+[Klaviyo instructions](instructions.md) | [Example html](../example.html)
 ## Required `options`
 * `vendor`
 * `action`
