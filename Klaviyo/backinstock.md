@@ -32,7 +32,7 @@ var options = {
   address_1: '123 Street St',
   address_2: 'Unit A',
   city: 'Hermosa Beach',
-  state: 'CA', // `region:` and `province:` interchangeable
+  state: 'CA', // `state:`, `region:` and `province:` are interchangeable
   zip: '90254',
   country: 'United States',
   timezone_iana: 'America/Los_Angeles'
