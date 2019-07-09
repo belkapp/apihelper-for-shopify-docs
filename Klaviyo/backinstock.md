@@ -29,8 +29,10 @@ var options = {
   phone: '911',
   organization: 'GBY Ultralight',
   title: 'Lead Designer',
+  address_1: '123 Street St',
+  address_2: 'Unit A',
   city: 'Hermosa Beach',
-  region: 'CA',
+  state: 'CA', // `region:` and `province:` interchangeable
   zip: '90254',
   country: 'United States',
   timezone_iana: 'America/Los_Angeles'
