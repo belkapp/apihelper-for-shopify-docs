@@ -22,7 +22,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-![alt text](images/api-helper-for-shopify-klaviyo-subscribe.gif | max-width=400)
+![alt text](images/api-helper-for-shopify-klaviyo-subscribe.gif | width=400)
 ## Shopify Admin
 ![alt text](images/api-helper-for-shopify-admin.gif)
 
