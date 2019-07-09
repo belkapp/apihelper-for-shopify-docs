@@ -11,7 +11,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-[Mailchimp instructions](instructions.md) | [Example html](../example.html)
+[Mailchimp API key instructions](instructions.md) | [Example html](../example.html)
 ## Required `options`
 * `vendor`
 * `action`
