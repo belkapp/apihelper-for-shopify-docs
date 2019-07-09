@@ -6,6 +6,7 @@ API Helper simplifies AJAX email sign ups and discount code creation for Shopify
 
 There are no scripts required after enabling your first app module inside of the app. The js file from the API Helper app is __1.4KB__ and automatically injected into your shop from CDN when you install the app - and removed immediately when the app's modules are disabled or the app is uninstalled.
 
+## Example Code
 ```
 var options = {
   vendor: 'klaviyo-subscribe',
@@ -20,6 +21,7 @@ wb_apihelper(options, function(err, res){
 })
 ```
 ![alt text](images/api-helper-for-shopify-klaviyo-subscribe.gif)
+## Shopify Admin
 ![alt text](images/api-helper-for-shopify-admin.gif)
 [example.html >](example.html)
 
