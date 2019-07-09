@@ -10,7 +10,7 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-[Omnisend instructions](instructions.md) | [Example html](../example.html)
+[Omnisend API key instructions](instructions.md) | [Example html](../example.html)
 ## Required `options`
 * `vendor`
 * `action`
