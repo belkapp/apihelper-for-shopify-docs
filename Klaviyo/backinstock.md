@@ -19,6 +19,9 @@ wb_apihelper(options, function(err, res){
 * `email`
 * `variant`
 
+## Automatically subscribe to list
+This is really cool. Add `options.list_id` and the user will automatically be subscribed to a list at the same time they are added to the `backinstock` waitlist.
+
 ## Standard `options`
 API Helper supports the following standard options. These options will be mapped to the appropriate location in Klaviyo.
 ```
