@@ -33,12 +33,13 @@ var options = {
   address_1: '123 Street St',
   address_2: 'Unit A',
   city: 'Hermosa Beach',
-  state: 'CA', // `state:`, `region:` and `province:` are interchangeable
+  state: 'CA',
   zip: '90254',
   country: 'United States',
   timezone_iana: 'America/Los_Angeles'
 }
 ```
+\* `options.state`, `options.region` and `options.province` are interchangeable
 ## Custom Properties
 You can pass any custom properties by key/value like below. These are mapped to `Custom Properties` in Klaviyo.
 ```
