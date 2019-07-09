@@ -1,4 +1,4 @@
-## API Key Instructions
+## Mailchimp API Key Instructions
 To get your API key, do the following:
 * Click your account name in the top right
 * Account

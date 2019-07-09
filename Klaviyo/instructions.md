@@ -1,4 +1,4 @@
-## API Key Instructions
+## Klaivyo API Key Instructions
 To get your API key and public key, do the following:
 ### Public Key & Private API Key
 * Click your account name in the top right

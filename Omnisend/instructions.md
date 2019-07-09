@@ -1,4 +1,4 @@
-## API Key Instructions
+## Omnisend API Key Instructions
 To get your API key, do the following:
 * Click your initial in the top right
 * Store Settings
