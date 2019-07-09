@@ -1,5 +1,7 @@
 # API Helper for Shopify docs
 
+![API Helper for Shopify logo](images/api-helper-for-shopify-logo.png)
+
 The API Helper app for Shopify is available here for install from the Shopify App Store with modules starting at $2 / month. Read more about the app here on Medium.
 
 API Helper simplifies AJAX email sign ups and discount code creation for Shopify. The app provides a secure frontend API that provides access to important functions from [Klaviyo](#modules), [Mailchimp](#modules), [Omnisend](#modules) and [Shopify](#modules) that are not accessible due to CORS policies inside of Shopify themes. [Jump to docs](#modules)
@@ -22,9 +24,9 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
-![alt text](images/api-helper-for-shopify-klaviyo-subscribe.gif | width=400)
+![API Helper for Shopify Klaviyo subscribe](images/api-helper-for-shopify-klaviyo-subscribe.gif)
 ## Shopify Admin
-![alt text](images/api-helper-for-shopify-admin.gif)
+![API Helper for Shopify admin](images/api-helper-for-shopify-admin.gif)
 
 ## Modules
 Modules starting at $2 / month. Each module includes all `action` components shown below. For example, the Klaviyo module costs $3 / month and gives you access to the `subscribe, unsubscribe, backinstock, track, identify` actions.
