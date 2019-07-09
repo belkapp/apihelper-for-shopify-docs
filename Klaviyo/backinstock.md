@@ -5,20 +5,22 @@ var options = {
   action: 'backinstock',
   email: 'foo@google.co',
   signup_location: 'Product Detail Page',
-  variant: '19823912399'
+  variant: '19823912399',
+  list_id: 'Us28wx98' // optional
 }
 wb_apihelper(options, function(err, res){
   if ( err ) return alert(res.message)
   console.log(res)
 })
 ```
-[Klaviyo API key instructions](instructions.md) | [Example html](../example.html)
+
 ## Required `options`
 * `vendor`
 * `action`
 * `email`
 * `variant`
 
+[Klaviyo API key instructions](instructions.md) | [Example html](../example.html)
 ## Automatically subscribe to list
 This is really cool. Add `options.list_id` and the user will automatically be subscribed to a list at the same time they are added to the `backinstock` waitlist.
 
