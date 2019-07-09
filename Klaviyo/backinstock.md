@@ -1,3 +1,4 @@
+The `backinstock` action maps to Klaviyo's native Back In Stock feature. Read [Klaviyo's docs](https://help.klaviyo.com/hc/en-us/articles/115003872251-Create-a-Back-in-Stock-Flow) to create a flow and [view reports](https://help.klaviyo.com/hc/en-us/articles/115003872251-Create-a-Back-in-Stock-Flow#back-in-stock-reports9). It's tricky to find.
 ```
 var options = {
   vendor: 'klaviyo-subscribe',
