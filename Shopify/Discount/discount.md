@@ -28,4 +28,4 @@ This will generate a unique discount code if `options.code.append_unique_numbers
 
 If `options.code.append_unique_numbers === false` or `options.code.append_unique_numbers` is not included, the code from the above example will be generated as `COCONUT` and can only be generated once.
 
-![API Helper for Shopify create discount code](images/api-helper-for-shopify-create-discount-code.gif)
+![API Helper for Shopify create discount code](../images/api-helper-for-shopify-create-discount-code.gif)
