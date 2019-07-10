@@ -8,6 +8,8 @@ var options = {
 wb_apihelper(options, function(err, res){
   if ( err ) return alert(res.message)
   console.log(res)
+
+  // res: { statusCode: 200 || 400, message: '...', data: { customer_id: '480310624304' } }
 })
 ```
 ## Required `options`
