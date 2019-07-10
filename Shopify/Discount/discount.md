@@ -13,6 +13,7 @@ var options = {
 wb_apihelper(options, function(err, res){
   if ( err ) return alert(res.message)
   console.log(res)
+  // res: { }
 })
 ```
 ## Required `options`
@@ -26,3 +27,5 @@ wb_apihelper(options, function(err, res){
 This will generate a unique discount code if `options.code.append_unique_numbers === true`. The unique discount code is generated as uppercase character plus milliseconds timesamp: `COCONUT_1562626929328`.
 
 If `options.code.append_unique_numbers === false` or `options.code.append_unique_numbers` is not included, the code from the above example will be generated as `COCONUT` and can only be generated once.
+
+![API Helper for Shopify admin](images/api-helper-for-shopify-create-discount-code.gif)
