@@ -8,7 +8,7 @@ API Helper simplifies AJAX email sign ups and discount code creation for Shopify
 
 API Helper provides a simple callback and standard response structure that makes life so much easier. API Helper also allows for plug-and-play or 'hot swap' customer sign-ups between Klaviyo, Mailchimp, Omnisend, and Shopify.
 
-There are no scripts required to use the app. After enabling your first app module inside of the app, our js file from the API Helper app is injected into your theme at the end of page load. This file is __1.4KB__ and served from Google's CDN. The file is removed immediately when the app's modules are disabled or the app is uninstalled.
+There are no scripts required to use the app. After enabling your first app module inside of the app, our js file from the API Helper app is injected into your theme at the end of page load. This file is __1.6KB__ and served from Google's CDN. The file is removed immediately when the app's modules are disabled or the app is uninstalled.
 
 ## Example Code
 ```
