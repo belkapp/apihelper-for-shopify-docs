@@ -10,6 +10,12 @@ API Helper provides a simple callback and standard response structure that makes
 
 There are no scripts required to use the app. After enabling your first app module inside of the app, our js file from the API Helper app is injected into your theme at the end of page load. This file is __1.6KB__ and served from Google's CDN. The file is removed immediately when the app's modules are disabled or the app is uninstalled.
 
+## Getting Started
+
+1. Enable your desired modules in the app admin on Shopify
+2. Save your API keys (if applicable)
+3. Review the docs for the [modules](#modules) below. Just copy/paste the example code into your theme and you are ready to go. You can also paste the code directly into your browser console for testing.
+
 ## Example Code
 ```
 var options = {
@@ -36,9 +42,11 @@ Modules starting at $2 / month. Each module includes all `action` components sho
 * [backinstock](/Klaviyo/backinstock.md)
 * [track](/Klaviyo/track.md)
 * [identify](/Klaviyo/identify.md)
+* [API key instructions](/Klaviyo/instructions.md)
 ### Mailchimp - $3 / month
 * [subscribe](/Mailchimp/subscribe.md)
 * [unsubscribe](/Mailchimp/unsubscribe.md)
+* [API key instructions](/Mailchimp/instructions.md)
 ### Omnisend - $3 / month
 * [subscribe](/Omnisend/subscribe.md)
 * [unsubscribe](/Omnisend/unsubscribe.md)
