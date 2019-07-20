@@ -32,6 +32,7 @@ This will generate a unique discount code if `options.code.append_unique_numbers
 If `options.code.append_unique_numbers === false` or `options.code.append_unique_numbers` is not included, the code from the above example will be generated as `COCONUT` and can only be generated once.
 
 ![API Helper for Shopify create discount code](../../images/api-helper-for-shopify-create-discount-code.gif)
+![API Helper for Shopify generate unique discount code](../../images/api-helper-for-shopify-theme-generate-discount.gif)
 
 ## Advanced Example
 If you want to provide a discount code after successful newsletter signup, you can do this in the same transaction instead of doing two separate calls. On any of the `subscribe` modules you can do this, for `klaviyo`, `mailchimp`, `omnisend` and `shopify`. Your code might look something like this:

@@ -31,6 +31,7 @@ wb_apihelper(options, function(err, res){
 })
 ```
 ![API Helper for Shopify Klaviyo subscribe](images/api-helper-for-shopify-klaviyo-subscribe.gif)
+![API Helper for Shopify generate unique discount code](images/api-helper-for-shopify-theme-generate-discount.gif)
 ## Shopify Admin
 ![API Helper for Shopify admin](images/api-helper-for-shopify-admin.gif)
 
