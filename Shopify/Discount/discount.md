@@ -31,6 +31,8 @@ This will generate a unique discount code if `options.code.append_unique_numbers
 
 If `options.code.append_unique_numbers === false` or `options.code.append_unique_numbers` is not included, the code from the above example will be generated as `COCONUT` and can only be generated once.
 
+The user is cookied with their unique discount code for the `price_rule_id` that you generated. If another discount request comes with that `price_rule_id`, and immediate 200 response will be returned with associated data.
+
 ![API Helper for Shopify create discount code](../../images/api-helper-for-shopify-create-discount-code.gif)
 ![API Helper for Shopify generate unique discount code](../../images/api-helper-for-shopify-theme-generate-discount.gif)
 
