@@ -15,6 +15,7 @@ There are no scripts required to use the app. After enabling your first app modu
 1. Enable your desired modules in the app admin on Shopify
 2. Save your API keys (if applicable)
 3. Review the docs for the [modules](#modules) below. Just copy/paste the example code into your theme and you are ready to go. You can also paste the code directly into your browser console for testing.
+4. Follow our newsletter subscription screencast [here on Youtube](https://www.youtube.com/watch?v=Bl-TfmwawUU).
 
 ## Example Code
 ```
