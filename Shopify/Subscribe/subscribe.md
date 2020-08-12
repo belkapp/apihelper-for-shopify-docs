@@ -34,11 +34,12 @@ var options = {
   city: 'Hermosa Beach',
   state: 'CA',
   zip: '90254',
-  country: 'United States',
+  country: 'US', // must be Shopify Country Code, see list below
   timezone_iana: 'America/Los_Angeles'
 }
 ```
 \* `options.state`, `options.region` and `options.province` are interchangeable
+\* Country code list [here from Shopify](https://shopify.dev/docs/storefront-api/reference/object/countrycode)
 ## Custom Properties
 You can pass any custom properties by key/value like below. These are popuplated as `tags` in Shopify.
 ```
