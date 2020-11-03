@@ -19,6 +19,9 @@ wb_apihelper(options, function(err, res){
 * `list_id`
 * `signup_location`
 
+### statusCode of 201
+`res.statusCode` of 201 returned in the response means that the user was already subscribed. You can use this to change the behavior or your UI accordingly.
+
 ## Standard `options`
 API Helper supports the following standard options. These options will be mapped to the appropriate location in Mailchimp.
 ```
