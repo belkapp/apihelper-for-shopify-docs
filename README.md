@@ -18,6 +18,7 @@ There are no scripts required to use the app. After enabling your first app modu
 4. Follow our newsletter subscription screencast [here on Youtube](https://www.youtube.com/watch?v=Bl-TfmwawUU).
 
 ## Example Code
+
 ```
 var options = {
   vendor: 'klaviyo-subscribe',
@@ -31,31 +32,34 @@ wb_apihelper(options, function(err, res){
   console.log(res)
 })
 ```
+
 ![API Helper for Shopify Klaviyo subscribe](images/api-helper-for-shopify-klaviyo-subscribe.gif)
 ![API Helper for Shopify generate unique discount code](images/api-helper-for-shopify-theme-generate-discount.gif)
+
 ## Shopify Admin
 ![API Helper for Shopify admin](images/api-helper-for-shopify-admin.gif)
 
 ## Modules
-Modules starting at $2 / month. Each module includes all `action` components shown below. For example, the Klaviyo module costs $3 / month and gives you access to the `subscribe, unsubscribe, backinstock, track, identify` actions.
-### Klaviyo - $3 / month
+Each module includes all `action` components shown below.
+
+### Klaviyo
 * [subscribe](/Klaviyo/subscribe.md)
 * [unsubscribe](/Klaviyo/unsubscribe.md)
 * [backinstock](/Klaviyo/backinstock.md)
 * [track](/Klaviyo/track.md)
 * [identify](/Klaviyo/identify.md)
 * [API key instructions](/Klaviyo/instructions.md)
-### Mailchimp - $3 / month
+### Mailchimp
 * [subscribe](/Mailchimp/subscribe.md)
 * [unsubscribe](/Mailchimp/unsubscribe.md)
 * [API key instructions](/Mailchimp/instructions.md)
-### Omnisend - $3 / month
+### Omnisend
 * [subscribe](/Omnisend/subscribe.md)
 * [unsubscribe](/Omnisend/unsubscribe.md)
-### Shopify \- Subscribe - $2 / month
+### Shopify \- Subscribe
 * [subscribe](/Shopify/Subscribe/subscribe.md)
 * [unsubscribe](/Shopify/Subscribe/unsubscribe.md)
-### Shopify \- Discount - $2 / month
+### Shopify \- Discount
 * [discount](/Shopify/Discount/discount.md)
 ### Google UTM Params
 * [BONUS: utm params](/utms.md)
