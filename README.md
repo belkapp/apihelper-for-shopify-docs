@@ -2,13 +2,13 @@
 
 ![API Helper for Shopify logo](images/api-helper-for-shopify-logo.png)
 
-The [API Helper app for Shopify](https://apps.shopify.com/api-helper) is available here for install from the Shopify App Store with modules starting at $2 / month. Read more about the app here on Medium.
+The is available [here](https://apps.shopify.com/api-helper) for install from the Shopify App Store.
 
 API Helper simplifies AJAX email sign ups and discount code creation for Shopify. The app provides a secure frontend API that provides access to important functions from [Klaviyo](#modules), [Mailchimp](#modules), [Omnisend](#modules) and [Shopify](#modules) that are not accessible due to CORS policies inside of Shopify themes. [Jump to docs](#modules)
 
 API Helper provides a simple callback and standard response structure that makes life so much easier. API Helper also allows for plug-and-play or 'hot swap' customer sign-ups between Klaviyo, Mailchimp, Omnisend, and Shopify.
 
-There are no scripts required to use the app. After enabling your first app module inside of the app, our js file from the API Helper app is injected into your theme at the end of page load. This file is __1.6KB__ and served from Google's CDN. The file is removed immediately when the app's modules are disabled or the app is uninstalled.
+There are no scripts required to use the app. After enabling your first app module inside of the app, our js file from the API Helper app is injected into your theme at the end of page load. This file less than 2K. The file is removed immediately when the app's modules are disabled or the app is uninstalled.
 
 ## Getting Started
 
